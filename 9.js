@@ -40,4 +40,4 @@ const arrayObj = (acc, currentString) => ({
 
 const arrObject = (str) => ({ [str]: str.length });
 
-console.log(arrayString.map(arrObject));
+arrayString.map(arrObject);

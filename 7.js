@@ -7,4 +7,4 @@ const sumOfOddEven = (acc, currentValue) =>
     ? { ...acc, evenSum: acc.evenSum + currentValue }
     : { ...acc, oddSum: acc.oddSum + currentValue };
 
-console.log(arr.reduce(sumOfOddEven, { oddSum: 0, evenSum: 0 }));
+arr.reduce(sumOfOddEven, { oddSum: 0, evenSum: 0 });

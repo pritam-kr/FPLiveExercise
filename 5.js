@@ -6,7 +6,7 @@ const vowel = ['a', 'e', 'i', 'o', 'u'];
 
 const getFruitArray = (fruit) => {
   for (char of fruit) {
-    console.log(char);
+    // console.log(char);
 
     if (vowel.includes(char)) {
       return true;
@@ -16,7 +16,7 @@ const getFruitArray = (fruit) => {
   return false;
 };
 
-console.log(fruits.filter(getFruitArray));
+fruits.filter(getFruitArray);
 
 //  for(l of "letter"){
 //    console.log(l)
